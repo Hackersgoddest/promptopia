@@ -1,24 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Promptopia
+
+> Discover & Share AI-Powered Prompts
+
+## About
+Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Learn More](#learn-more)
+- [Deploy on Vercel](#deploy-on-vercel)
+- [Contributing](#Contributing)
+- [Images](#images)
+
 
 ## Getting Started
 
-First, run the development server:
+1. 1. Make sure you have [NodeJS](https://nodejs.org/) and [postgresql](https://www.postgresql.org/) installed.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Clone the repository to your local machine:
+
+   ```sh
+   git clone https://github.com/Hackersgoddest/promptopia.git
+   ```
+
+3. Install your dependencies
+
+    ```
+    cd feathers-chat
+    yarn
+    ```
+
+4. Configure the environment variables:
+
+    - Create a `.env` file in the `root` directory and set your google, next and database connection details:
+         ```sh
+        GOOGLE_CLIENT_ID=google-client-id
+        GOOGLE_CLIENT_SECRET=google-client-secret
+        MONGODB_URI=mongodb-uri
+        NEXTAUTH_URL=http://localhost:3000
+        NEXTAUTH_URL_INTERNAL=http://localhost:3000
+        NEXTAUTH_SECRET=next-secret
+
+5. Start your app
+
+    ```bash
+    npm run dev
+
+    ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
@@ -34,3 +67,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Contributing
+- Contributions to this project are welcome! If you have ideas for improvements or bug fixes, please submit an issue or a pull request.
+
+## Images
+![Sign In/Up Page](/public/assets//images/login.png)
+![Google Account Page](/public/assets/images/google-accounts.png.png)
+![Home Page](/public/assets/images/homepage.png)
+![Profile Page](/public/assets/images/profile.png)
