@@ -73,6 +73,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Images
 ![Sign In/Up Page](/public/assets//images/login.png)
-![Google Account Page](/public/assets/images/google-accounts.png.png)
+![Google Account Page](/public/assets/images/google-accounts.png)
 ![Home Page](/public/assets/images/homepage.png)
 ![Profile Page](/public/assets/images/profile.png)
