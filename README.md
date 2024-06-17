@@ -17,7 +17,7 @@ Promptopia is an open-source AI prompting tool for modern world to discover, cre
 
 ## Getting Started
 
-1. 1. Make sure you have [NodeJS](https://nodejs.org/) and [postgresql](https://www.postgresql.org/) installed.
+1. 1. Make sure you have [NodeJS](https://nodejs.org/) and [MongoDB Atlas account](https://www.mongodb.com/atlas) installed.
 
 2. Clone the repository to your local machine:
 
